@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*banner*/
+.banner-image {
+    height: 700px;
+}
+
+/*About us*/
+.about-girl {
+    max-width: 40%;
+    margin-left: 19px;
+    padding-left: 20px;
+}
+.header {
+    margin-left: 450px;
+    font-weight: 700;
+}
+.section-about {
+    margin: 50px;
+}
+.about-text {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 85%;
+    padding: 45px 20px;
+}
+
+/*products*/
+
+.clothes{
+	max-width: 80%;
+	border-radius: 15px;
+}
+.section-products {
+    background: grey;
+}
+.products {
+    display: flex;
+    margin: 45px 16px;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.products2 {
+    display: flex;
+    margin: 45px 16px;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.dress h4 {
+    margin: 0px 95px;
+    padding: 10px 5px;
+}
+h1.text-center {
+    margin: 30px 0px;
+}
+
+/*rating*/
+
+.rating-main {
+    max-width: 55%;
+    border: 2px solid;
+    padding: 50px 20px;
+    border-radius: 15px;
+    background: skyblue;
+}
+.review {
+    display: flex;
+    gap: 15px;
+}
+.rating-name {
+    margin-top: 18px;
+}
+.rating-design{
+	display: flex;
+}
+
+/*rating*/
+
+.rating-main{
+	width: 425px;
+    margin: 0px 4px;
+}
+.section-rating{
+    padding: 0px 13px;
+}
+.slick-next {
+    right: 20px!important;
+}
+.slick-prev {
+    left: 35px!important;
+    z-index: 1!important;
+}
+.slick-prev.slick-disabled:before {
+    opacity: 1.25 !important;
+}
+.rating-head {
+    margin: 35px 0px;
+}
+.slick-track {
+    margin-bottom: 45px;
+}
+
+/*form*/
+input[type="text"] {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+textarea {
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+.footer{
+	background: grey;
+}
+iframe {
+    max-width: 55%;
+    height: 260px;
+}
+.footer-main{
+	padding: 57px 0px;
+    align-items: center;
+    margin-left: 60px;
+    
+}
+.address {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 45px;
+}
+button.btn.btn-danger {
+    padding: 7px 25px;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+	/*about*/
+
+.about-text {
+    font-size: 18px;
+    max-width: 100%;
+    text-align: center;
+    padding: 34px 0px;
+}
+	/*products*/
+.products{
+	flex-wrap: wrap;
+}
+.products2{
+	flex-wrap: wrap;
+}
+.address {
+    margin-left: -14px;
+}
+.footer-main {
+    margin: 0 auto;
+    margin-left: 32px;
+}
+.header {
+    margin-left: 0px!important;
+}
+iframe {
+    max-width: 85%;
+    height: 233px;
+}
+
+
+
+
+
+
+}
